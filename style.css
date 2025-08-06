@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif; /* Sans-serif es fallback */
+  font-weight: 400; /* Peso normal (400) por defecto */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;    /* Vertical centering */
+  min-height: 100vh;      /* Full viewport height */
+}
+
+.card{
+    border: 1px solid black; /* Grosor 2px, estilo sólido, color negro */
+    border-radius: 10px; /* (Opcional) Bordes redondeados */
+    padding: 20px; /* (Opcional) Espacio interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* (Opcional) Sombra para mejor estética */
+    flex: content;
+    width: 100%;
+    max-width: 350px; /* Maximum width on large screens */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: hsl(0, 0%, 100%);
+    box-shadow: 8px 8px 0px 0px black;
+}
+
+.card-content{
+    padding: 0.8rem 0.1rem 0.1rem;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+img{
+    width: 90%;
+    border-radius: 10px;
+}
