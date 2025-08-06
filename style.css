@@ -1,8 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+@font-face {
+  font-family: 'Young';  
+  src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('woff2');  
+  font-weight: 400;  
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'Outfit';  
+  src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('woff2');  
+  font-weight: 400;  
+  font-style: normal;  
+}
+
+h1, h2, h3{
+  font-family: 'Young';
+}
 
 body {
-  font-family: 'Outfit', sans-serif; /* Sans-serif es fallback */
-  font-weight: 400; /* Peso normal (400) por defecto */
+  font-family: 'Outfit', sans-serif; 
+  font-weight: 400;
   background-color: hsl(30, 54%, 90%);
 }
 
