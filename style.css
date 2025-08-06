@@ -11,6 +11,8 @@ body {
   justify-content: center; /* Horizontal centering */
   align-items: center;    /* Vertical centering */
   min-height: 100vh;      /* Full viewport height */
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 
 .card{
@@ -18,7 +20,7 @@ body {
     padding: 20px; /* (Opcional) Espacio interno */
     flex: content;
     width: 100%;
-    max-width: 450px; /* Maximum width on large screens */
+    max-width: 650px; /* Maximum width on large screens */
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
