@@ -12,7 +12,7 @@
   font-style: normal;  
 }
 
-h1, h2, h3{
+h1, h2{
   font-family: 'Young';
 }
 
@@ -20,6 +20,7 @@ body {
   font-family: 'Outfit', sans-serif; 
   font-weight: 400;
   background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
 }
 
 .container {
@@ -36,7 +37,7 @@ body {
     padding: 20px; /* (Opcional) Espacio interno */
     flex: content;
     width: 100%;
-    max-width: 650px; /* Maximum width on large screens */
+    max-width: 670px; /* Maximum width on large screens */
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -61,3 +62,85 @@ img{
     width: 100%;
     border-radius: 10px;
 }
+
+h1{
+  color: hsl(24, 5%, 18%);
+}
+
+h2{
+  color: hsl(14, 45%, 36%);
+}
+
+h3{
+  font-family: 'Outfit';  
+  padding-top: 4%;
+  padding-left: 3%;
+  color: hsl(332, 51%, 32%);
+}
+
+.first-word{
+  font-weight: bold;
+  color: hsl(24, 5%, 18%);
+}
+
+.ingredients-h2-container{
+  padding-top: 4%;
+  padding-left: 2.7%;
+}
+
+.divider{
+  border: none;          /* Elimina el estilo por defecto */
+  height: 1px;           /* Grosor de la línea */
+  background-color: #e0e0e0;
+  margin: 30px 0;
+}
+
+.instructions-h2{
+  padding-top: 4%;
+}
+
+.left-column{
+  padding-left: 40%;
+}
+
+.right-column{
+  padding-left: 200%;
+}
+
+.margin-calories{
+  margin-left: 5%;
+  margin-right: 40%;
+}
+
+.margin-carbs{
+  margin-left: 5%;
+  margin-right: 42.5%;
+}
+
+.margin-protein{
+  margin-left: 5%;
+  margin-right: 41%;
+}
+
+.margin-fat{
+  margin-left: 5%;
+  margin-right: 45.3%;
+}
+
+.divider-table{
+  border: none;          /* Elimina el estilo por defecto */
+  height: 1px;           /* Grosor de la línea */
+  background-color: #e0e0e0;
+  margin: 15px 0;
+}
+
+.stats{
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+.preparation-container{
+  background-color: hsl(330, 100%, 98%);
+}
+
+
